@@ -1,6 +1,7 @@
 import requests
 import binascii
 import base64
+import re
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
@@ -15,43 +16,50 @@ headers = {
     'Cache-Control': 'no-cache, no-store'
 }
 
-def decrypt_data(raw_response):
+def decrypt_data(raw_text):
     # Convert HEX keys/IV to bytes
     key = binascii.unhexlify(KEY_HEX)
     iv = binascii.unhexlify(IV_HEX)
     
-    # 1. Clean the input (remove quotes if it's a JSON string)
-    b64_str = raw_response.strip().replace('"', '')
+    # 1. CLEANING: Remove everything that isn't a valid Base64 character
+    # This removes quotes, brackets, or hidden Unicode markers (BOM)
+    b64_clean = re.sub(r'[^a-zA-Z0-9+/=]', '', raw_text)
     
     try:
-        # 2. Base64 Decode
-        # We add "===" padding to avoid 'Incorrect padding' errors
-        encrypted_bytes = base64.b64decode(b64_str + "===")
+        # 2. Decode Base64 to raw bytes
+        encrypted_bytes = base64.b64decode(b64_clean)
         
-        # 3. AES Decryption (CBC Mode)
+        # 3. AES Decryption (CBC)
         cipher = AES.new(key, AES.MODE_CBC, iv)
-        decrypted = unpad(cipher.decrypt(encrypted_bytes), AES.block_size)
+        decrypted_raw = cipher.decrypt(encrypted_bytes)
         
-        return decrypted.decode('utf-8')
+        # 4. Unpadding and decoding to UTF-8
+        # We use 'ignore' to prevent crashes if there's a stray byte at the end
+        decrypted_text = unpad(decrypted_raw, AES.block_size).decode('utf-8', errors='ignore')
+        
+        return decrypted_text
     except Exception as e:
-        return f"# Error: Decryption failed - {str(e)}"
+        return f"# Error during Decryption: {str(e)}\n# Raw Length: {len(raw_text)}"
 
 def main():
     try:
-        response = requests.get(URL, headers=headers, timeout=15)
+        response = requests.get(URL, headers=headers, timeout=20)
         response.raise_for_status()
         
-        # Decrypt the Base64 response
-        result = decrypt_data(response.text)
+        # Get response and handle potential JSON wrapper
+        content = response.text
         
-        # Save to file
+        # If the response is a JSON string like {"data": "..."}, we need the value
+        # But if it's just the raw string, our regex cleaner handles it.
+        result = decrypt_data(content)
+        
         with open("emax.m3u8", "w", encoding="utf-8") as f:
             f.write(result)
             
-        print("Success: emax.m3u8 has been updated from Base64 source.")
+        print("Update Successful: emax.m3u8 generated.")
         
     except Exception as e:
-        print(f"Fetch Error: {e}")
+        print(f"Network/Request Error: {e}")
 
 if __name__ == "__main__":
     main()
