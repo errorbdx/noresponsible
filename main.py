@@ -18,8 +18,6 @@ HEADERS = {
 
 def decrypt_aes(encrypted_data, key_hex, iv_hex):
     try:
-        # First, we check if the data is a hex string. 
-        # If it throws an error, we catch it and assume it's already raw binary bytes.
         try:
             encrypted_bytes = binascii.unhexlify(encrypted_data.strip())
         except Exception:
@@ -34,6 +32,41 @@ def decrypt_aes(encrypted_data, key_hex, iv_hex):
     except Exception as e:
         print(f"Decryption failed: {e}")
         return None
+
+def main():
+    print("Fetching data using curl_cffi to spoof TLS fingerprint...")
+    
+    try:
+        response = requests.get(URL, headers=HEADERS, impersonate="chrome110")
+        
+        if response.status_code == 200:
+            print("Successfully connected! Bypassed the redirect.")
+            encrypted_data = response.content 
+            
+            print("Decrypting payload...")
+            decrypted_m3u8 = decrypt_aes(encrypted_data, KEY_HEX, IV_HEX)
+
+            if decrypted_m3u8:
+                with open("emax.m3u8", "w", encoding="utf-8") as file:
+                    file.write(decrypted_m3u8)
+                print("Successfully saved decrypted playlist to emax.m3u8")
+            else:
+                print("Decryption failed. Saving the raw server response to emax.m3u8 for debugging.")
+                # Save the raw data in binary mode ("wb") so we can see what the server actually sent
+                with open("emax.m3u8", "wb") as file:
+                    file.write(encrypted_data)
+                # Exit with 0 so the GitHub Action doesn't crash and actually commits the file
+                sys.exit(0)
+        else:
+            print(f"Failed to connect. HTTP Status: {response.status_code}")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"Connection error: {e}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
 
 def main():
     print("Fetching data using curl_cffi to spoof TLS fingerprint...")
