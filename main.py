@@ -9,7 +9,6 @@ URL = "https://hotstarlive.nebula-core.workers.dev/?token=154dc5-7a9126-56996d-1
 KEY_HEX = "fe3fd1b7dc91f363348da0cba1efcd0d0b571fc9f6a3e38c5084d47f7dbb5c49"
 IV_HEX = "18b7e28e236b68119731470a85dfb3c9"
 
-# We keep the exact headers you pulled from the app
 HEADERS = {
     "Host": "hotstarlive.nebula-core.workers.dev",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0",
@@ -17,9 +16,15 @@ HEADERS = {
     "cache-control": "no-cache, no-store"
 }
 
-def decrypt_aes(encrypted_hex, key_hex, iv_hex):
+def decrypt_aes(encrypted_data, key_hex, iv_hex):
     try:
-        encrypted_bytes = binascii.unhexlify(encrypted_hex)
+        # First, we check if the data is a hex string. 
+        # If it throws an error, we catch it and assume it's already raw binary bytes.
+        try:
+            encrypted_bytes = binascii.unhexlify(encrypted_data.strip())
+        except Exception:
+            encrypted_bytes = encrypted_data
+
         key = bytes.fromhex(key_hex)
         iv = bytes.fromhex(iv_hex)
         
@@ -34,27 +39,26 @@ def main():
     print("Fetching data using curl_cffi to spoof TLS fingerprint...")
     
     try:
-        # The 'impersonate' flag perfectly mimics a real browser/app handshake
-        # to stop Cloudflare from serving the YouTube redirect decoy.
         response = requests.get(URL, headers=HEADERS, impersonate="chrome110")
         
         if response.status_code == 200:
             print("Successfully connected! Bypassed the redirect.")
-            encrypted_hex = response.text.strip()
+            
+            # CHANGED: Using .content to get raw binary bytes instead of .text
+            encrypted_data = response.content 
             
             print("Decrypting payload...")
-            decrypted_m3u8 = decrypt_aes(encrypted_hex, KEY_HEX, IV_HEX)
+            decrypted_m3u8 = decrypt_aes(encrypted_data, KEY_HEX, IV_HEX)
 
             if decrypted_m3u8:
                 with open("emax.m3u8", "w", encoding="utf-8") as file:
                     file.write(decrypted_m3u8)
                 print("Successfully saved playlist to emax.m3u8")
             else:
-                print("Failed to decrypt the data. The payload might be in a different format.")
+                print("Failed to decrypt the data. The payload or keys might be incorrect.")
                 sys.exit(1)
         else:
             print(f"Failed to connect. HTTP Status: {response.status_code}")
-            print(f"Response Body: {response.text}")
             sys.exit(1)
             
     except Exception as e:
