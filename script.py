@@ -1,5 +1,6 @@
 import requests
 import binascii
+import json
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
@@ -14,32 +15,45 @@ headers = {
     'Cache-Control': 'no-cache, no-store'
 }
 
-def decrypt_data(encrypted_text):
+def decrypt_data(raw_response):
     key = binascii.unhexlify(KEY_HEX)
     iv = binascii.unhexlify(IV_HEX)
-    # Assuming the response is Base64 or raw hex, adjust if it's different
-    # Most common is raw bytes or base64. If it's hex, use unhexlify.
+    
+    # 1. Clean the input: Remove quotes or handle JSON if the response is wrapped
+    encrypted_text = raw_response.strip().replace('"', '')
+    
     try:
-        raw_data = binascii.unhexlify(encrypted_text.strip())
+        # 2. Convert Hex string to Bytes
+        encrypted_bytes = binascii.unhexlify(encrypted_text)
+        
+        # 3. AES Decryption (CBC Mode)
         cipher = AES.new(key, AES.MODE_CBC, iv)
-        decrypted = unpad(cipher.decrypt(raw_data), AES.block_size)
+        decrypted = unpad(cipher.decrypt(encrypted_bytes), AES.block_size)
+        
         return decrypted.decode('utf-8')
     except Exception as e:
-        return f"Decryption failed: {e}"
+        return f"# Error: Decryption failed - {str(e)}"
 
 def main():
-    response = requests.get(URL, headers=headers)
-    if response.status_code == 200:
-        # If response is already plain text, use response.text
-        # If encrypted, call decrypt_data(response.text)
-        decrypted_content = decrypt_data(response.text)
+    try:
+        response = requests.get(URL, headers=headers, timeout=15)
+        response.raise_for_status()
         
+        # Get the raw text from response
+        encrypted_data = response.text
+        
+        # Decrypt
+        result = decrypt_data(encrypted_data)
+        
+        # Save to file
         with open("emax.m3u8", "w", encoding="utf-8") as f:
-            f.write(decrypted_content)
-        print("File emax.m3u8 updated successfully.")
-    else:
-        print(f"Failed to fetch. Status code: {response.status_code}")
+            f.write(result)
+            
+        print("Success: emax.m3u8 has been updated.")
+        
+    except Exception as e:
+        print(f"Fetch Error: {e}")
 
 if __name__ == "__main__":
     main()
-      
+        
