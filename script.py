@@ -1,6 +1,6 @@
 import requests
 import binascii
-import json
+import base64
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
@@ -16,15 +16,17 @@ headers = {
 }
 
 def decrypt_data(raw_response):
+    # Convert HEX keys/IV to bytes
     key = binascii.unhexlify(KEY_HEX)
     iv = binascii.unhexlify(IV_HEX)
     
-    # 1. Clean the input: Remove quotes or handle JSON if the response is wrapped
-    encrypted_text = raw_response.strip().replace('"', '')
+    # 1. Clean the input (remove quotes if it's a JSON string)
+    b64_str = raw_response.strip().replace('"', '')
     
     try:
-        # 2. Convert Hex string to Bytes
-        encrypted_bytes = binascii.unhexlify(encrypted_text)
+        # 2. Base64 Decode
+        # We add "===" padding to avoid 'Incorrect padding' errors
+        encrypted_bytes = base64.b64decode(b64_str + "===")
         
         # 3. AES Decryption (CBC Mode)
         cipher = AES.new(key, AES.MODE_CBC, iv)
@@ -39,21 +41,17 @@ def main():
         response = requests.get(URL, headers=headers, timeout=15)
         response.raise_for_status()
         
-        # Get the raw text from response
-        encrypted_data = response.text
-        
-        # Decrypt
-        result = decrypt_data(encrypted_data)
+        # Decrypt the Base64 response
+        result = decrypt_data(response.text)
         
         # Save to file
         with open("emax.m3u8", "w", encoding="utf-8") as f:
             f.write(result)
             
-        print("Success: emax.m3u8 has been updated.")
+        print("Success: emax.m3u8 has been updated from Base64 source.")
         
     except Exception as e:
         print(f"Fetch Error: {e}")
 
 if __name__ == "__main__":
     main()
-        
