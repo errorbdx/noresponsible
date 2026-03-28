@@ -1,35 +1,45 @@
-name: Update emax.m3u8
+name: Update EMAX M3U8 Playlist
 
 on:
-  workflow_dispatch:  # manual trigger
+  # This schedule runs the script every 6 hours. 
+  # You can change the cron timing to suit your needs.
   schedule:
-    - cron: '0 * * * *' # every hour
+    - cron: '0 */6 * * *' 
+  # This allows you to run the action manually from the GitHub Actions tab
+  workflow_dispatch: 
 
 jobs:
-  update_m3u8:
+  build-and-update:
     runs-on: ubuntu-latest
+    
+    # Required permissions to push code back to the repository
+    permissions:
+      contents: write 
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.11"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests pycryptodome
+      - name: Install Required Libraries
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pycryptodome
 
-    - name: Fetch & Decrypt
-      run: python fetch_decrypt.py
+      - name: Execute Decryption Script
+        run: python main.py
 
-    - name: Commit & Push changes
-      run: |
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git add emax.m3u8
-        git commit -m "Update emax.m3u8 [skip ci]" || echo "No changes to commit"
-        git push
+      - name: Commit and Push M3U8 File
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add emax.m3u8
+          
+          # This command checks if there are any changes to the file.
+          # It will only commit and push if the m3u8 file has actually been updated.
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated update: emax.m3u8" && git push)
+          
