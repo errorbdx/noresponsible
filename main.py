@@ -1,103 +1,44 @@
-from curl_cffi import requests
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad
-import binascii
-import sys
+import cloudscraper
+import os
 
-# 1. Configuration & Keys
-URL = "https://hotstarlive.nebula-core.workers.dev/?token=154dc5-7a9126-56996d-1fa267"
-KEY_HEX = "fe3fd1b7dc91f363348da0cba1efcd0d0b571fc9f6a3e38c5084d47f7dbb5c49"
-IV_HEX = "18b7e28e236b68119731470a85dfb3c9"
+# 1. Target URL
+url = "https://hotstarlive.nebula-core.workers.dev/?token=u003d154dc5-7a9126-56996d-1fa267"
 
-HEADERS = {
+# 2. Exact Headers from your logs
+# We use the 'okhttp' User-Agent and the 'Sportzfy' package name
+headers = {
     "Host": "hotstarlive.nebula-core.workers.dev",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0",
-    "accept": "*/*",
-    "cache-control": "no-cache, no-store"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0",
+    "X-Requested-With": "com.cricfytv.sports",
+    "Accept-Encoding": "gzip"
 }
 
-def decrypt_aes(encrypted_data, key_hex, iv_hex):
+def fetch_playlist():
     try:
-        try:
-            encrypted_bytes = binascii.unhexlify(encrypted_data.strip())
-        except Exception:
-            encrypted_bytes = encrypted_data
+        print("1. Initializing Cloudscraper...")
+        # create_scraper tries to mimic a real browser to bypass Cloudflare
+        scraper = cloudscraper.create_scraper() 
 
-        key = bytes.fromhex(key_hex)
-        iv = bytes.fromhex(iv_hex)
+        print("2. Requesting playlist...")
+        response = scraper.get(url, headers=headers)
         
-        cipher = AES.new(key, AES.MODE_CBC, iv)
-        decrypted_data = unpad(cipher.decrypt(encrypted_bytes), AES.block_size)
-        return decrypted_data.decode('utf-8')
-    except Exception as e:
-        print(f"Decryption failed: {e}")
-        return None
+        print(f"3. Server Status: {response.status_code}")
 
-def main():
-    print("Fetching data using curl_cffi to spoof TLS fingerprint...")
-    
-    try:
-        response = requests.get(URL, headers=HEADERS, impersonate="chrome110")
-        
         if response.status_code == 200:
-            print("Successfully connected! Bypassed the redirect.")
-            encrypted_data = response.content 
-            
-            print("Decrypting payload...")
-            decrypted_m3u8 = decrypt_aes(encrypted_data, KEY_HEX, IV_HEX)
-
-            if decrypted_m3u8:
-                with open("emax.m3u8", "w", encoding="utf-8") as file:
-                    file.write(decrypted_m3u8)
-                print("Successfully saved decrypted playlist to emax.m3u8")
+            content = response.text
+            if "#EXTM3U" in content:
+                with open("iptv.m3u", "w", encoding="utf-8") as f:
+                    f.write(content)
+                print("✅ Success! Playlist saved to iptv.m3u")
             else:
-                print("Decryption failed. Saving the raw server response to emax.m3u8 for debugging.")
-                # Save the raw data in binary mode ("wb") so we can see what the server actually sent
-                with open("emax.m3u8", "wb") as file:
-                    file.write(encrypted_data)
-                # Exit with 0 so the GitHub Action doesn't crash and actually commits the file
-                sys.exit(0)
+                print("⚠️ Server sent 200 OK, but content is not M3U.")
+                print("Preview:", content[:100])
         else:
-            print(f"Failed to connect. HTTP Status: {response.status_code}")
-            sys.exit(1)
-            
+            print(f"❌ Failed. Code: {response.status_code}")
+            print("Response:", response.text)
+
     except Exception as e:
-        print(f"Connection error: {e}")
-        sys.exit(1)
+        print(f"❌ Error: {e}")
 
-if __name__ == "__main__":
-    main()
-
-def main():
-    print("Fetching data using curl_cffi to spoof TLS fingerprint...")
-    
-    try:
-        response = requests.get(URL, headers=HEADERS, impersonate="chrome110")
-        
-        if response.status_code == 200:
-            print("Successfully connected! Bypassed the redirect.")
-            
-            # CHANGED: Using .content to get raw binary bytes instead of .text
-            encrypted_data = response.content 
-            
-            print("Decrypting payload...")
-            decrypted_m3u8 = decrypt_aes(encrypted_data, KEY_HEX, IV_HEX)
-
-            if decrypted_m3u8:
-                with open("emax.m3u8", "w", encoding="utf-8") as file:
-                    file.write(decrypted_m3u8)
-                print("Successfully saved playlist to emax.m3u8")
-            else:
-                print("Failed to decrypt the data. The payload or keys might be incorrect.")
-                sys.exit(1)
-        else:
-            print(f"Failed to connect. HTTP Status: {response.status_code}")
-            sys.exit(1)
-            
-    except Exception as e:
-        print(f"Connection error: {e}")
-        sys.exit(1)
-
-if __name__ == "__main__":
-    main()
-    
+if name == "main":
+    fetch_playlist()
