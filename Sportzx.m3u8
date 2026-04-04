@@ -395,11 +395,13 @@ https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
 
-#EXTINF:-1 tvg-id="angelsvsseattlemariners0238mlbliveaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Angels vs Seattle Mariners 02:38 (MLB LIVE - AQ)
-https://darmasaki888.s3.us-east-1.amazonaws.com/tigers.m3u8
+#EXTINF:-1 tvg-id="afcajaxvsfctwente2000sportdigitalfussball" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",AFC Ajax vs FC Twente 20:00 (SportDigital Fussball)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
 
-#EXTINF:-1 tvg-id="athleticsvshoustonastros0240mlbliveaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Athletics vs Houston Astros 02:40 (MLB LIVE - AQ)
+#EXTINF:-1 tvg-id="afcajaxvsfctwente2000espnnl" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",AFC Ajax vs FC Twente 20:00 (ESPN NL)
+https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8
+
+#EXTINF:-1 tvg-id="excelsiorvsnecnijmegen2000mlbliveaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",Excelsior vs NEC Nijmegen 20:00 (MLB LIVE - AQ)
 https://darmasaki888.s3.us-east-1.amazonaws.com/yankees.m3u8
-
-#EXTINF:-1 tvg-id="diamondbacksvsatlantabraves0245mlbliveaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Diamondbacks vs Atlanta Braves 02:45 (MLB LIVE - AQ)
-https://darmasaki888.s3.us-east-1.amazonaws.com/dodgers.m3u8
