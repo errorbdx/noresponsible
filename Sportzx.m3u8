@@ -211,13 +211,13 @@ https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clie
 
 #EXTINF:-1 tvg-id="islvsisl1230fancodeeng" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Isl",ISL VS ISL 12:30 (FANCODE  ENG )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a7ffe6ad5a0e4f3c9d353c851729f367:fb64947f811de380e4ecba49bbe8c6ac
-https://in-mc-flive.fancode.com/mumbai/140475_english_dash_70203_1drmta-di_h264/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=8bd09dab8fe54c75883aa3b8e9e90813:655d0ead111fdeb199656fd24ae90909
+https://in-mc-flive.fancode.com/mumbai/140476_english_dash_78073_1drmta-di_h264/index.mpd
 
 #EXTINF:-1 tvg-id="islvsisl1230fancodehin" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Isl",ISL VS ISL 12:30 (FANCODE  HIN )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7c67d54acfd247bca64dec6ab988161d:bb98935753225d228635bad7d9249237
-https://in-mc-flive.fancode.com/mumbai/140475_hindi_dash_33166_1drmta-di_h264/index.mpd
+#KODIPROP:inputstream.adaptive.license_key=b71da6bfed9849fb96617e51e65ce204:a4556e0569bfe36e26e3f70db2d12fa6
+https://in-mc-flive.fancode.com/mumbai/140476_hindi_dash_65338_1drmta-di_h264/index.mpd
 
 #EXTINF:-1 tvg-id="islvsisl1230fancodemal" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Isl",ISL VS ISL 12:30 (FANCODE  MAL )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -371,6 +371,9 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1
 
 #EXTINF:-1 tvg-id="gaeaglesvspeczwolle1115espnnl" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",GA Eagles vs PEC Zwolle 11:15 (ESPN NL)
 https://smarthard.click/hls/zk0Nc2A3VdSM/index.m3u8
+
+#EXTINF:-1 tvg-id="gaeaglesvspeczwolle1115sdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",GA Eagles vs PEC Zwolle 11:15 (SD SERVER)
+http://195.178.110.2/hls/KIKIKIQQQQQ.m3u8
 
 #EXTINF:-1 tvg-id="volendamvsfeyenoord1330sportdigitalfussball" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",Volendam vs Feyenoord 13:30 (SportDigital Fussball)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
