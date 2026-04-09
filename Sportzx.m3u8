@@ -245,6 +245,36 @@ https://in-mc-flive.fancode.com/mumbai/140477_bengali_dash_90251_1drmta-di_h264/
 #KODIPROP:inputstream.adaptive.license_key=b2721eda88ee41e08add91163532399a:fd52baecf9195defd17bb4ceb825cac0
 https://bd-mc-flive.fancode.com/delhi/140477_english_dash_5167_1drmta-di_h264/index.mpd
 
+#EXTINF:-1 tvg-id="raptorsvsmiamiheat0000homecam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Raptors vs Miami Heat 00:00 (HOME CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/141.m3u8
+
+#EXTINF:-1 tvg-id="raptorsvsmiamiheat0000awaycam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Raptors vs Miami Heat 00:00 (AWAY CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/145.m3u8
+
+#EXTINF:-1 tvg-id="wizardsvschicagobulls0000homecam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Wizards vs Chicago Bulls 00:00 (HOME CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/158.m3u8
+
+#EXTINF:-1 tvg-id="wizardsvschicagobulls0000awaycam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Wizards vs Chicago Bulls 00:00 (AWAY CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/139.m3u8
+
+#EXTINF:-1 tvg-id="brooklynnetsvspacers0030homecam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Brooklyn Nets vs Pacers 00:30 (HOME CAM.)
+https://webcast-cdn.b-cdn.net/newz/newz/152.m3u8
+
+#EXTINF:-1 tvg-id="brooklynnetsvspacers0030awaycam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Brooklyn Nets vs Pacers 00:30 (AWAY CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/164.m3u8
+
+#EXTINF:-1 tvg-id="knicksvsbostonceltics0030homecam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Knicks vs Boston Celtics 00:30 (HOME CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/155.m3u8
+
+#EXTINF:-1 tvg-id="knicksvsbostonceltics0030awaycam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Knicks vs Boston Celtics 00:30 (AWAY CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/144.m3u8
+
+#EXTINF:-1 tvg-id="houstonrocketsvs76ers0100homecam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Houston Rockets vs 76ers 01:00 (HOME CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/161.m3u8
+
+#EXTINF:-1 tvg-id="houstonrocketsvs76ers0100awaycam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Houston Rockets vs 76ers 01:00 (AWAY CAM.)
+https://pro.packcast.top/newz/5xyJcnUCNM3JjTT2/138.m3u8
+
 #EXTINF:-1 tvg-id="damacfcvsalqadsiah1700foxdeportes" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Pro league 🇸🇦",Damac FC vs Al-Qadsiah 17:00 (FOX DEPORTES)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
