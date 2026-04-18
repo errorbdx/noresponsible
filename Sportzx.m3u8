@@ -264,18 +264,6 @@ https://bd-mc-flive.fancode.com/delhi/140482_english_dash_38610_1drmta-di_h264/i
 #KODIPROP:inputstream.adaptive.license_key=7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe
 https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
 
-#EXTINF:-1 tvg-id="orlandomagicvscharlottehornets0030nbaliveaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Orlando Magic vs Charlotte Hornets 00:30 (NBA LIVE - AQ)
-https://oshanrd4.s3.us-east-1.amazonaws.com/espn.m3u8
-
-#EXTINF:-1 tvg-id="orlandomagicvscharlottehornets0030fhdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Orlando Magic vs Charlotte Hornets 00:30 (FHD SERVER)
-https://daffodil.underupturnip.net/nba.m3u8
-
-#EXTINF:-1 tvg-id="orlandomagicvscharlottehornets0030sportsnethd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Orlando Magic vs Charlotte Hornets 00:30 (SportsNET HD)
-https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1395.m3u8
-
-#EXTINF:-1 tvg-id="orlandomagicvscharlottehornets0030spxcam" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Orlando Magic vs Charlotte Hornets 00:30 (SPX CAM.)
-https://webcast-origin.b-cdn.net/bcdn_token=Ox7O3rEfHClC-eg-6xSE2QCXA2Oqr2BTCR6ajKVDnYc&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh%2F&expires=1776483822/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHlfaKwxBRai1572zvpDnjh/152.m3u8
-
 #EXTINF:-1 tvg-id="phoenixsunsvswarriors0300tsnsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Phoenix Suns vs Warriors 03:00 (TSN SPORTS)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c4088f5f265f9de50cffd80bf89308b7:2c4d2239d96d532b4ec2050653611003
@@ -283,6 +271,16 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1
 
 #EXTINF:-1 tvg-id="phoenixsunsvswarriors0300sdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Phoenix Suns vs Warriors 03:00 (SD SERVER)
 https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1675.m3u8
+
+#EXTINF:-1 tvg-id="goldcoastsunsvsessendonbombers0415tntsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Afl",Gold Coast Suns vs Essendon Bombers 04:15 (TNT SPORTS)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
+
+#EXTINF:-1 tvg-id="goldcoastsunsvsessendonbombers0415tsnsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Afl",Gold Coast Suns vs Essendon Bombers 04:15 (TSN SPORTS)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e853333da2c9196ea11374634231bc45:de2e2dbe818d78dfad07d6cd9a4c63d4
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd
 
 #EXTINF:-1 tvg-id="brentfordvsfulham1230tntsportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Epl 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Brentford vs Fulham 12:30 (TNT SPORTS FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -383,26 +381,12 @@ https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/
 #EXTINF:-1 tvg-id="unionberlinvswolfsburg1430skybundesligasd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Bundesliga 🇩🇪",Union Berlin vs Wolfsburg 14:30 (SKY BUNDESLIGA SD)
 https://smarthard.click/hls/9gSZoyFska/index.m3u8
 
-#EXTINF:-1 tvg-id="vancouverwhitecapsvskansascity0330beinsportssd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mls 🇺🇸",Vancouver Whitecaps vs Kansas City 03:30 (beIN SPORTS SD)
-https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8
-
-#EXTINF:-1 tvg-id="vancouverwhitecapsvskansascity0330tsn1" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mls 🇺🇸",Vancouver Whitecaps vs Kansas City 03:30 (TSN 1)
+#EXTINF:-1 tvg-id="vancouverwhitecapsvskansascity0330tsnsportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mls 🇺🇸",Vancouver Whitecaps vs Kansas City 03:30 (TSN SPORTS FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 
-#EXTINF:-1 tvg-id="vancouverwhitecapsvskansascity0330tsn3" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mls 🇺🇸",Vancouver Whitecaps vs Kansas City 03:30 (TSN 3)
+#EXTINF:-1 tvg-id="vancouverwhitecapsvskansascity0330tsnsportshd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mls 🇺🇸",Vancouver Whitecaps vs Kansas City 03:30 (TSN SPORTS HD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f5c2b30eac11be1e8cdfc9585f5fe6af:a8198d17bf9b0da77450fbb919a38b2d
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd
-
-#EXTINF:-1 tvg-id="clevelandguardiansvsbaltimoreorioles2310sportdigit" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Cleveland Guardians vs Baltimore Orioles 23:10 (SportDigital Fussball)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
-
-#EXTINF:-1 tvg-id="clevelandguardiansvsbaltimoreorioles2310espnnlsd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Cleveland Guardians vs Baltimore Orioles 23:10 (ESPN NL SD)
-https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8
-
-#EXTINF:-1 tvg-id="philadelphiaphilliesvsatlantabraves2340beinsportss" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Philadelphia Phillies vs Atlanta Braves 23:40 (beIN SPORTS SD)
-https://smarthard.click/hls/hhx33tWwGEeW/index.m3u8
