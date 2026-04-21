@@ -323,14 +323,14 @@ https://api.vipstreamed.live/api/stream/hockey/montreal-canadiens-vs-tampa-bay-l
 #EXTINF:-1 tvg-id="lightningvscanadiens0000hdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Lightning vs Canadiens 00:00 (HD SERVER)
 https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-id="buffalosabresvsbostonbruins0030spxnhllive" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Buffalo Sabres vs Boston Bruins 00:30 (SPX NHL LIVE)
+https://api.vipstreamed.live/api/stream/hockey/bostonbruinsvsbuffalosabres.m3u8
+
 #EXTINF:-1 tvg-id="buffalosabresvsbostonbruins0030hdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Buffalo Sabres vs Boston Bruins 00:30 (HD SERVER)
 https://instreams.pro/US/NHL2/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="knightsvsutahmammoth0230nhlfhdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Knights vs Utah Mammoth 02:30 (NHL FHD SERVER)
-https://daffodil.marllonferreira.space/nhl.m3u8
-
-#EXTINF:-1 tvg-id="knightsvsutahmammoth0230espnusahd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Knights vs Utah Mammoth 02:30 (ESPN USA HD)
-https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/400.m3u8
+#EXTINF:-1 tvg-id="knightsvsutahmammoth0230spxnhllive" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Knights vs Utah Mammoth 02:30 (SPX NHL LIVE)
+https://api.vipstreamed.live/api/stream/hockey/utahmammothvsvegasgoldenknights.m3u8
 
 #EXTINF:-1 tvg-id="knightsvsutahmammoth0230hdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Knights vs Utah Mammoth 02:30 (HD SERVER)
 https://instreams.pro/US/NHL3/tracks-v1a1/mono.m3u8
@@ -348,6 +348,15 @@ https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f
 https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd
+
+#EXTINF:-1 tvg-id="brightonvschelsea2000spxliveaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Epl 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Brighton vs Chelsea 20:00 (SPX LIVE - AQ)
+https://nymatpiya.s3.us-east-2.amazonaws.com/nbcsn.m3u8
+
+#EXTINF:-1 tvg-id="brightonvschelsea2000skymainevent" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Epl 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Brighton vs Chelsea 20:00 (SKY MAIN EVENT)
+https://api.vipstreamed.live/api/stream/soccer/chelsea-vs-brighton-hove-albion.m3u8
+
+#EXTINF:-1 tvg-id="brightonvschelsea2000usatvhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Epl 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Brighton vs Chelsea 20:00 (USA TV HD)
+https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/195.m3u8
 
 #EXTINF:-1 tvg-id="realmadridvsdeportivoalavs2030beinenglishfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Laliga 🇪🇸",Real Madrid vs Deportivo Alavés 20:30 (beIN ENGLISH FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
