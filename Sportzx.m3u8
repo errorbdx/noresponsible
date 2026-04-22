@@ -417,6 +417,9 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1
 #KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 
+#EXTINF:-1 tvg-id="psgvsnantes1800ligue1fhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ligue 1 🇫🇷",PSG vs Nantes 18:00 (LIGUE1  FHD)
+https://cdn.damitv.live/ppv-extract/proxy?url=https%3A%2F%2Fnetanyahu.modifiles.fans%2Fsecure%2FCgFTmdmJOnPemlmVuhGKdfDOrgTJmeEY%2F1776866400%2F1776893400%2Fl1_psg%2Ftracks-v1a1%2Fmono.ts.m3u8
+
 #EXTINF:-1 tvg-id="alnassrvsalahlidoha1700espnnlsd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Afc champions two",Al-Nassr vs Al-Ahli Doha 17:00 (ESPN NL SD)
 https://smarthard.click/hls/uSPCfTgzHQY3/index.m3u8
 
@@ -447,6 +450,9 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd
+
+#EXTINF:-1 tvg-id="miamimarlinsvscardinals1710mlblivefhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Miami Marlins vs Cardinals 17:10 (MLB LIVE FHD)
+https://cdn.damitv.live/ppv-extract/proxy?url=https%3A%2F%2Fnetanyahu.modifiles.fans%2Fsecure%2FeUoAPvXqAmxUyDIAZEFmycbbnDlWbwpn%2F1776863400%2F1776894000%2Fmiamimarlins%2Ftracks-v1a1%2Fmono.ts.m3u8
 
 #EXTINF:-1 tvg-id="charltonathleticvsipswichtown1945cbsnetwork" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Charlton Athletic vs Ipswich Town 19:45 (CBS NETWORK)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
