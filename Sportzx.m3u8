@@ -53,8 +53,14 @@ https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clie
 #KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 
-#EXTINF:-1 tvg-id="motogp0905skysportsde" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Motogp",MotoGP 09:05 (SKY SPORTS DE)
-https://smarthard.click/hls/w93sLKtkQf0Y/index.m3u8
+#EXTINF:-1 tvg-id="motogp0905tntsportssd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Motogp",MotoGP 09:05 (TNT SPORTS SD)
+https://instreams.pro/bil1/motogpen/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="motogp0905daznsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Motogp",MotoGP 09:05 (DAZN SPORTS)
+https://instreams.pro/bil1/motogpfr/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="motogp0905canalhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Motogp",MotoGP 09:05 (CANAL  HD)
+https://instreams.pro/EU/HDTV27/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ufc2200tntsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ufc",UFC 22:00 (TNT Sports)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -418,3 +424,25 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1
 
 #EXTINF:-1 tvg-id="celticvsfalkirk1730skysportshd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Scottish premiership",Celtic vs Falkirk 17:30 (SKY SPORTS HD)
 https://xstm.250909.cc/live/SPORTSFLUX-PRD-75441-100/3015d8e2ea17/1025.m3u8
+
+#EXTINF:-1 tvg-id="benficavsmoreirense1800sportdigitalfussball" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Liga portugal",Benfica vs Moreirense 18:00 (SportDigital Fussball)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 tvg-id="feyenoordvsgroningen1530sportdigitalfussball" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",Feyenoord vs Groningen 15:30 (SportDigital Fussball)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 tvg-id="feyenoordvsgroningen1530espnnlsd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",Feyenoord vs Groningen 15:30 (ESPN NL SD)
+https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="heerenveenvsfortunasittard1745espnnlsd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",Heerenveen vs Fortuna Sittard 17:45 (ESPN NL SD)
+https://instreams.pro/bil2/foxnl3/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="nacbredavsafcajax1900espnnlsd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",NAC Breda vs AFC Ajax 19:00 (ESPN NL SD)
+https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="twentevsnecnijmegen2000espnnlsd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",Twente vs NEC Nijmegen 20:00 (ESPN NL SD)
+https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8
