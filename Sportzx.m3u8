@@ -409,6 +409,9 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
+#EXTINF:-1 tvg-id="torinovsinter1700skycalciohd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Serie a 🇮🇹",Torino vs Inter 17:00 (SKY CALCIO HD)
+https://instreams.pro/EU/HDTV12/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="milanvsjuventus1945tntsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Serie a 🇮🇹",Milan vs Juventus 19:45 (TNT SPORTS)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b
@@ -431,6 +434,21 @@ https://sf-scrapper-hzma.onrender.com/api/stream/soccer/werder-bremen-vs-vfb-stu
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd
+
+#EXTINF:-1 tvg-id="borussiadortmundvsfreiburg1630skybundesligahd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Bundesliga 🇩🇪",Borussia Dortmund vs Freiburg 16:30 (SKY BUNDESLIGA HD)
+https://instreams.pro/EU/HDTV17/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="parisfcvslille1615beinsportses" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ligue 1 🇫🇷",Paris FC vs Lille 16:15 (beIN SPORTS ES)
+https://daffodil.shoncine.com/beines.m3u8
+
+#EXTINF:-1 tvg-id="parisfcvslille1615canalsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ligue 1 🇫🇷",Paris FC vs Lille 16:15 (CANAL  SPORTS)
+https://instreams.pro/EU/HDTV23/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="lehavrevsmetz1615canalsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ligue 1 🇫🇷",Le Havre vs Metz 16:15 (CANAL  SPORTS)
+https://instreams.pro/EU/HDTV27/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="staderennaisvsnantes1615canalsports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ligue 1 🇫🇷",Stade Rennais vs Nantes 16:15 (CANAL  SPORTS)
+https://instreams.pro/EU/HDTV24/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="chelseavsleedsunited1500tntsportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fa cup",Chelsea vs Leeds United 15:00 (TNT SPORTS FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -470,16 +488,8 @@ https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
 
-#EXTINF:-1 tvg-id="heraclesalmelovsvolendam1330espnnlsd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Eredivisie",Heracles Almelo vs Volendam 13:30 (ESPN NL SD)
-https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 tvg-id="galatasarayvsfenerbahe1800beinsportssd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Super lig",Galatasaray vs Fenerbahçe 18:00 (beIN SPORTS SD)
 https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="crdobavssportinggijn1300laligahypermotiones" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Laliga 2",Córdoba vs Sporting Gijón 13:00 (Laliga Hypermotion ES)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd
 
 #EXTINF:-1 tvg-id="granadavsalmera1515laligahypermotiones" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Laliga 2",Granada vs Almería 15:15 (Laliga Hypermotion ES)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
