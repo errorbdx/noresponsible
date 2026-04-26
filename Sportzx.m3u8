@@ -190,8 +190,8 @@ http://103.229.254.25:7001/play/a0a0/index.m3u8
 
 #EXTINF:-1 tvg-id="ipl021500willowadfree" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Indian premier league",IPL - 02 15:00 (WILLOW  Ad-Free )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=dedbf883004d1468d70fb008ff2430d0:ac7928fcd566ddebdf2b63cb4d1daeb6
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fpspuirqoc/out/v1/a047840f50a84f47ba6d765d910ffc5b/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=7cb361793a6e99ded8ca042a499b7f45:8efbe47bdb7cbea560d3abfe3a933cf8
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjnd301okd/out/v1/ea7ec99915184a66bb1e7e49fe14baa7/cenc.mpd
 
 #EXTINF:-1 tvg-id="ipl021500sdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Indian premier league",IPL - 02 15:00 (SD SERVER)
 http://195.178.110.76/hls/ZDDDZQQ.m3u8
@@ -222,8 +222,8 @@ https://in-mc-fdlive.fancode.com/mumbai/138946_english_hls_32955a282b57487_1ta-d
 
 #EXTINF:-1 tvg-id="psl021500willowadfree" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Psl",PSL 02 15:00 (WILLOW  Ad-Free )
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fdac31d19649487e505bd380dff32f0b:88f5e191762be218b6877e0654504767
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/udk7nhtb0g/out/v1/774ab4e788554098ac88ada82e5e8eb7/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=f4150e58250f7043dcaf8bd4cb8ca90e:94455b76b9d769ef1b19d6907e25be84
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/v2jzbc2mx7/out/v1/bebde99776494e7ab8a9346598204be6/cenc.mpd
 
 #EXTINF:-1 tvg-id="psl021500willowfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Psl",PSL 02 15:00 (WILLOW FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -382,6 +382,9 @@ https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/
 #KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 
+#EXTINF:-1 tvg-id="stuttgartvswerderbremen1430daznsportshd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Bundesliga 🇩🇪",Stuttgart vs Werder Bremen 14:30 (DAZN SPORTS HD)
+https://sf-scrapper-hzma.onrender.com/api/stream/soccer/werder-bremen-vs-vfb-stuttgart.m3u8
+
 #EXTINF:-1 tvg-id="borussiadortmundvsfreiburg1630sportvbraq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Bundesliga 🇩🇪",Borussia Dortmund vs Freiburg 16:30 (SporTV BR - AQ)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733
@@ -391,6 +394,9 @@ https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
+
+#EXTINF:-1 tvg-id="chelseavsleedsunited1500sonyliveng" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fa cup",Chelsea vs Leeds United 15:00 (SonyLiv  ENG )
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/FA_CUP_C2604/ENG/master.m3u8
 
 #EXTINF:-1 tvg-id="dundeeunitedvsdundeefc1400premiersports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Scottish premiership",Dundee United vs Dundee FC 14:00 (PREMIER SPORTS)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
