@@ -382,6 +382,9 @@ https://dice-live-oc.akamaized.net/hdntl=exp=1777737364~acl=%2f*~id=593bfb9b-958
 #EXTINF:-1 tvg-id="leedsunitedvsburnley2000nowsportspl" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Epl 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Leeds United vs Burnley 20:00 (NOW SPORTS PL)
 https://eventcdn02-nowe.akamaized.net/hls/CH621/index.m3u8
 
+#EXTINF:-1 tvg-id="leedsunitedvsburnley2000usatvaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Epl 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Leeds United vs Burnley 20:00 (USA TV - AQ)
+https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/b5d5801b00e60a1a0a558a488419d2bd/manifest/video.m3u8
+
 #EXTINF:-1 tvg-id="leedsunitedvsburnley2000hubpremierhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Epl 🏴󠁧󠁢󠁥󠁮󠁧󠁿",Leeds United vs Burnley 20:00 (HUB PREMIER HD)
 https://cdn-1.ttvb.eu.org/api/Hub-Premier-1/index.m3u8
 
