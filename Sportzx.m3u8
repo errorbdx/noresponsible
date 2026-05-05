@@ -192,15 +192,72 @@ https://daffodil.denishdhakal.com.np/nba2.m3u8
 #EXTINF:-1 tvg-id="oklahomacitythunder0130hdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nba",Oklahoma City Thunder 01:30 (HD SERVER)
 https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="alittihadvsalkholood1900thmanyahhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Pro league 🇸🇦",Al-Ittihad vs Al-Kholood 19:00 (THMANYAH HD)
+#EXTINF:-1 tvg-id="alittihadvsalkholood1900foxsportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Pro league 🇸🇦",Al-Ittihad vs Al-Kholood 19:00 (FOX SPORTS FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
+#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
+
+#EXTINF:-1 tvg-id="alittihadvsalkholood1900thmanyahhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Pro league 🇸🇦",Al-Ittihad vs Al-Kholood 19:00 (THMANYAH HD)
 https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd
 
 #EXTINF:-1 tvg-id="coloradoavalanche0100hdserver" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Nhl",Colorado Avalanche 01:00 (HD SERVER)
 https://instreams.pro/US/NHL1/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000amazonprimefhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (AMAZON PRIME FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=680a24e3d3785ea8b3a33a56928ea128:3f07a7f94f0ac7ee96057224b6a4163d
+https://a192live-pv-ta-amazon.akamaized.net/fra-nitro/live/clients/dash/enc/6sdrohc6nu/out/v1/f2e4108696b347a1b2440b948a3a6abf/cenc.mpd
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000setantasports" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (SETANTA SPORTS)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=62139d9d54cb4d9d9efc8371960fdef2:c8f6563dabdd40ccaf1077027819d1eb
+https://adjara-live-eu.akamaized.net/exp=1778092902~acl=%2F*~id=eec7b1d4-ba46-41f8-a676-5511099263af~data=hdntl,aXA9MTgwLjE5MC4xMjkuMTk3JmV4cD0xNzc4MDA2NTMyJmVpZD05NTMwNTgmb2lkPTEwMiZ0eXBlPVZPRCZ1aWQ9RXo0QWU3fDQ4NWYzNmRmLTVjNjYtNGJhZC04ZTU5LTViODYzM2YzNjQ3OSZjaWQ9ZGNlLmFkamFyYSZwdD1udWxs~hmac=5292b49e7ae46b9bb47f7c52cbb7819d425fa3d511d2840541b38d459560bc02/dash/live/2019598/302464-321126/manifest-d.mpd
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000tntbrasilfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (TNT BRASIL FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=833c25ef8498d93b2ce35443b10f892c:bc703292aefed912c02976273e5e3c63
+https://a40live-pv-ta-amazon.akamaized.net/gru-nitro/live/clients/dash/enc/ut7mlye5xp/out/v1/0a5fbcc3fc124cf9b996201087a58b2f/cenc.mpd
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000vixspanishaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (VIX SPANISH - AQ)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=89f8296d837d332a6aa9055bbb1eccdc:a43cee3f804235986bd0443f775fa568
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w9ebcxzrc0/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000paramountaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (PARAMOUNT  AQ)
+https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/7b2add8f6c990c9e43454caedce67487/manifest/video.m3u8
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000paramountaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (PARAMOUNT  AQ)
+https://cors.x-sure.co/https://dai.google.com/linear/hls/event/OY8m8F7CSa-bgQkjhk5jnw/master.m3u8
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000skysportaustria" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (Sky Sport Austria)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD233/index.mpd
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000paramounthd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (PARAMOUNT  HD)
+https://storage.googleapis.com/qweunigeing1/mux_video_ts1/index-1.m3u8
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000hbomaxbr" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (HBO MAX BR)
+https://image-storage-31.imgcontent.xyz/live/arsenal-x-atletico-de-madrid/index.m3u8
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000sportzxliveaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (SportzX Live - AQ)
+https://rifusfcollins.s3.us-east-1.amazonaws.com/btsport.m3u8
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000premiersportshd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (PREMIER SPORTS HD)
+https://601.sraspers.org/arsenal.m3u8
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000sonyliveng" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (SonyLiv  ENG )
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/UCL_Athl0505/ENG/master.m3u8
+
+#EXTINF:-1 tvg-id="arsenalvsatlticomadrid2000sonylivhin" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Ucl",Arsenal vs Atlético Madrid 20:00 (SonyLiv  HIN )
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/UCL_Athl0505/HIN/master.m3u8
+
 #EXTINF:-1 tvg-id="tigresuanlvsnashville0230foxsportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Concacaf cup 🇺🇸",Tigres UANL vs Nashville 02:30 (FOX SPORTS FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd
+
+#EXTINF:-1 tvg-id="beiktajkvskonyaspor1830sportdigitalfussball" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Türkiye kupası",Beşiktaş JK vs Konyaspor 18:30 (SportDigital Fussball)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
