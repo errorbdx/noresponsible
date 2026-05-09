@@ -528,8 +528,8 @@ https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/
 #EXTINF:-1 tvg-id="mlagavssportinggijn2000espnnl" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Laliga 2",Málaga vs Sporting Gijón 20:00 (ESPN NL)
 https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="nrnbergvsschalke1930beinsportssd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="2. bundesliga",Nürnberg vs Schalke 19:30 (beIN SPORTS SD)
-https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="nrnbergvsschalke1930skybundesligasd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="2. bundesliga",Nürnberg vs Schalke 19:30 (SKY BUNDESLIGA SD)
+https://instreams.pro/bil2/bundes2/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="baltimoreoriolesvsathletics2105beinenglishfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Mlb",Baltimore Orioles vs Athletics 21:05 (beIN ENGLISH FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
