@@ -402,6 +402,11 @@ https://bobis.zaglemplokis.online/premium59/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="genoavsmilan1100paramounthd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Serie a 🇮🇹",Genoa vs Milan 11:00 (PARAMOUNT  HD)
 https://bobis.zaglemplokis.online/premium68/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-id="pisavssscnapoli1100sport2fhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Serie a 🇮🇹",Pisa vs SSC Napoli 11:00 (SPORT 2 FHD)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
+
 #EXTINF:-1 tvg-id="pisavssscnapoli1100paramounthd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Serie a 🇮🇹",Pisa vs SSC Napoli 11:00 (PARAMOUNT  HD)
 https://bobis.zaglemplokis.online/premium76/tracks-v1a1/mono.m3u8
 
